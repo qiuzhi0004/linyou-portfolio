@@ -328,6 +328,56 @@ h1{
   font-size: 13px;
 }
 
+.hero-points{
+  padding: 14px 18px 10px;
+  display:grid;
+  gap: 10px;
+}
+.point{
+  display:flex;
+  gap: 12px;
+  align-items:flex-start;
+  padding: 12px 12px;
+  background: rgba(255,255,255,.78);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+.point-icon{
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background:
+    radial-gradient(120% 120% at 20% 10%, rgba(245,233,58,.55) 0%, rgba(245,233,58,0) 55%),
+    radial-gradient(120% 120% at 100% 0%, rgba(43,108,246,.18) 0%, rgba(43,108,246,0) 55%),
+    linear-gradient(180deg, #fff, #f6f5f0);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  display:grid;
+  place-items:center;
+  color: var(--text);
+  flex: 0 0 auto;
+}
+.point-icon svg{ width: 18px; height: 18px; }
+.point-text{
+  display:flex;
+  flex-direction:column;
+  gap: 3px;
+}
+.point-text b{
+  font-size: 14px;
+  letter-spacing: -0.01em;
+}
+.point-text span{
+  font-size: 13px;
+  color: var(--muted);
+}
+.hero-badges{
+  padding: 0 18px 18px;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .section{
   padding: var(--section) 0;
 }
@@ -586,4 +636,3 @@ button:focus-visible{
 button{
   font-family: inherit;
 }
-

@@ -24,3 +24,6 @@ python3 -m http.server 5173
 - 交互脚本：`linyou-portfolio/assets/script.js`
 - 项目封面图：`linyou-portfolio/assets/images/*.svg`
 
+## 图片清单与提示词
+
+- 生成图片的清单/命名/提示词：`docs/reports/linyou-portfolio-图片清单与AI提示词.md`
