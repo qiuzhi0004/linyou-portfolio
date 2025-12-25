@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>开户流程（KYC）优化 — 林佑</title>
+    <meta name="description" content="增长设计：优化开户流程（KYC）的加载与反馈节奏，注册转化率提升 8.5%。" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script defer src="../assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link focus-ring" href="#content">跳到内容</a>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand focus-ring" href="../index.html" aria-label="回到首页">
+            <span class="brand-mark" aria-hidden="true">LY</span>
+            <span class="brand-title">
+              <strong>林佑 · Lin You</strong>
+              <span>Case study</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle focus-ring" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            菜单
+          </button>
+
+          <nav class="nav" data-nav data-open="false" aria-label="主导航">
+            <a class="focus-ring" href="../index.html#work">作品</a>
+            <a class="focus-ring" href="../resume.html#nebula">简历条目</a>
+            <a class="cta focus-ring" href="../index.html#contact">
+              联系我
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="page-hero">
+        <div class="container">
+          <h1>开户流程（KYC）优化 · 增长设计</h1>
+          <div class="meta">
+            <span class="tag">Growth</span>
+            <span class="tag">KYC</span>
+            <span class="tag">Micro-interaction</span>
+            <span class="tag">结果：转化率 +8.5%</span>
+          </div>
+          <a class="back-link focus-ring" href="../index.html#work">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            返回作品列表
+          </a>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="card">
+            <div class="media">
+              <img src="../assets/images/cover-kyc.svg" alt="KYC 封面（占位）" />
+            </div>
+            <div class="card-body prose">
+              <p>
+                <b>背景：</b>KYC 是金融产品的关键漏斗环节。用户对“等待、失败、反复输入”高度敏感，体验问题会直接反映到转化率与投诉上。
+              </p>
+              <p><b>目标：</b>降低流失，提高转化，同时保证合规与信息采集质量。</p>
+
+              <h2>关键洞察</h2>
+              <ul>
+                <li>用户对等待更敏感的是“没有反馈”而不是等待本身。</li>
+                <li>流程越长，越需要“阶段感”与“可预期的完成度”。</li>
+                <li>错误提示如果不明确，会导致反复尝试与放弃。</li>
+              </ul>
+
+              <h2>策略（Doherty Threshold）</h2>
+              <ul>
+                <li><b>缩短感知等待：</b>在关键请求点加入明确反馈（loading skeleton / progress / success toast）。</li>
+                <li><b>拆分与聚合：</b>把长表单拆成可完成的小步骤，并提供“已完成”的确认。</li>
+                <li><b>错误可恢复：</b>错误提示给出原因与下一步（例如图片不清晰、证件反光等）。</li>
+              </ul>
+
+              <h2>结果</h2>
+              <ul>
+                <li>注册转化率提升 <b>8.5%</b>。</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn focus-ring" href="mellow-cup-web-miniapp.html">下一篇：Mellow Cup Web / 小程序</a>
+                <a class="btn btn-primary focus-ring" href="../index.html#contact">联系我</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>© <span id="y">2025</span> Lin You</div>
+          <div class="footer-links">
+            <a class="focus-ring" href="../index.html">Home</a>
+            <a class="focus-ring" href="../resume.html">Resume</a>
+            <a class="focus-ring" href="mailto:lin.you@pixelmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById('y').textContent = String(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
+

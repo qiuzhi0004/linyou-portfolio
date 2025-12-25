@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mellow Cup · 官网与小程序体验 — 林佑</title>
+    <meta name="description" content="为咖啡品牌 Mellow Cup 设计官网改版与微信小程序界面：极简+有加粗视觉风格，响应式一致性。Awwwards 提名。" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script defer src="../assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link focus-ring" href="#content">跳到内容</a>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand focus-ring" href="../index.html" aria-label="回到首页">
+            <span class="brand-mark" aria-hidden="true">LY</span>
+            <span class="brand-title">
+              <strong>林佑 · Lin You</strong>
+              <span>Case study</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle focus-ring" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            菜单
+          </button>
+
+          <nav class="nav" data-nav data-open="false" aria-label="主导航">
+            <a class="focus-ring" href="../index.html#work">作品</a>
+            <a class="focus-ring" href="../resume.html#pixel">简历条目</a>
+            <a class="cta focus-ring" href="../index.html#contact">
+              联系我
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="page-hero">
+        <div class="container">
+          <h1>Mellow Cup · 官网改版与小程序体验</h1>
+          <div class="meta">
+            <span class="tag">Brand</span>
+            <span class="tag">Responsive Web</span>
+            <span class="tag">WeChat Mini Program</span>
+            <span class="tag">Awwwards 提名</span>
+          </div>
+          <a class="back-link focus-ring" href="../index.html#work">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            返回作品列表
+          </a>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="card">
+            <div class="media">
+              <img src="../assets/images/cover-mellow-cup.svg" alt="Mellow Cup 封面（占位）" />
+            </div>
+            <div class="card-body prose">
+              <p>
+                <b>背景：</b>代理商项目节奏快、沟通链路长。需要在有限时间内，把品牌气质转译为可落地的组件化页面与全端一致体验。
+              </p>
+              <p><b>目标：</b>提升品牌识别度与内容呈现质感，同时确保 Desktop → Mobile 的响应式一致性与可访问性。</p>
+
+              <h2>设计方向</h2>
+              <ul>
+                <li><b>极简 + 有加粗：</b>用强对比标题与留白建立节奏感。</li>
+                <li><b>统一视觉组件：</b>按钮、卡片、图文模块保持一致的边界与间距规则。</li>
+                <li><b>全端一致：</b>从 Desktop 到 Mobile 同一套信息结构，针对触控调整点击区域与密度。</li>
+              </ul>
+
+              <h2>交付范围</h2>
+              <ul>
+                <li>官网关键页面：首页、产品/菜单页、门店/活动内容页等。</li>
+                <li>微信小程序：核心流程页面与关键组件样式。</li>
+              </ul>
+
+              <h2>结果</h2>
+              <ul>
+                <li>获得 Awwwards “Site of the Day” 提名（简历记录）。</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn focus-ring" href="moodbox-widget.html">下一篇：MoodBox 侧项目</a>
+                <a class="btn btn-primary focus-ring" href="../index.html#contact">联系我</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>© <span id="y">2025</span> Lin You</div>
+          <div class="footer-links">
+            <a class="focus-ring" href="../index.html">Home</a>
+            <a class="focus-ring" href="../resume.html">Resume</a>
+            <a class="focus-ring" href="mailto:lin.you@pixelmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById('y').textContent = String(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
+

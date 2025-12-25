@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MoodBox（情绪盒子）— 林佑</title>
+    <meta name="description" content="侧项目：MoodBox iOS Widget。独立设计并与开发协作上架，累计下载 5,000+，获 Product Hunt 推荐。" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script defer src="../assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link focus-ring" href="#content">跳到内容</a>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand focus-ring" href="../index.html" aria-label="回到首页">
+            <span class="brand-mark" aria-hidden="true">LY</span>
+            <span class="brand-title">
+              <strong>林佑 · Lin You</strong>
+              <span>Case study</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle focus-ring" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            菜单
+          </button>
+
+          <nav class="nav" data-nav data-open="false" aria-label="主导航">
+            <a class="focus-ring" href="../index.html#work">作品</a>
+            <a class="focus-ring" href="../resume.html">简历</a>
+            <a class="cta focus-ring" href="../index.html#contact">
+              联系我
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="page-hero">
+        <div class="container">
+          <h1>MoodBox（情绪盒子）</h1>
+          <div class="meta">
+            <span class="tag">Side project</span>
+            <span class="tag">iOS Widget</span>
+            <span class="tag">5,000+ downloads</span>
+            <span class="tag">Product Hunt 推荐</span>
+          </div>
+          <a class="back-link focus-ring" href="../index.html#work">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            返回作品列表
+          </a>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="card">
+            <div class="media">
+              <img src="../assets/images/cover-moodbox.svg" alt="MoodBox 封面（占位）" />
+            </div>
+            <div class="card-body prose">
+              <p>
+                <b>项目简介：</b>MoodBox 是一款“情绪记录小组件”，在极小的空间里承载“记录、反馈、仪表化”的体验闭环。它也是我练习“在限制里做设计”的长期作品。
+              </p>
+              <h2>我负责的部分</h2>
+              <ul>
+                <li>Widget 信息结构与视觉风格定义（更少但更准）。</li>
+                <li>与开发协作：基于 iOS/WatchOS 限制做交互取舍与状态定义。</li>
+                <li>上架前的细节打磨：字体、对比度、动效反馈、空状态。</li>
+              </ul>
+
+              <h2>结果</h2>
+              <ul>
+                <li>App Store 累计下载 5,000+。</li>
+                <li>获得 Product Hunt 推荐（简历记录）。</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn focus-ring" href="../index.html#approach">查看我的方法</a>
+                <a class="btn btn-primary focus-ring" href="../index.html#contact">联系我</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>© <span id="y">2025</span> Lin You</div>
+          <div class="footer-links">
+            <a class="focus-ring" href="../index.html">Home</a>
+            <a class="focus-ring" href="../resume.html">Resume</a>
+            <a class="focus-ring" href="mailto:lin.you@pixelmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById('y').textContent = String(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
+

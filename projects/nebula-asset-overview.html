@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nebula Fintech · 资产总览重构 — 林佑</title>
+    <meta name="description" content="主导星云理财 App 4.0 资产总览模块重构：信息架构重建 + 数据可视化组件，查询时长 -40%，CSAT +15%。" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script defer src="../assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link focus-ring" href="#content">跳到内容</a>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a class="brand focus-ring" href="../index.html" aria-label="回到首页">
+            <span class="brand-mark" aria-hidden="true">LY</span>
+            <span class="brand-title">
+              <strong>林佑 · Lin You</strong>
+              <span>Case study</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle focus-ring" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            菜单
+          </button>
+
+          <nav class="nav" data-nav data-open="false" aria-label="主导航">
+            <a class="focus-ring" href="../index.html#work">作品</a>
+            <a class="focus-ring" href="../resume.html">简历</a>
+            <a class="cta focus-ring" href="../index.html#contact">
+              联系我
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="page-hero">
+        <div class="container">
+          <h1>Nebula Fintech · 资产总览重构</h1>
+          <div class="meta">
+            <span class="tag">Fintech · App 4.0</span>
+            <span class="tag">信息架构</span>
+            <span class="tag">数据可视化</span>
+            <span class="tag">结果：-40% 查询时长 · CSAT +15%</span>
+          </div>
+          <a class="back-link focus-ring" href="../index.html#work">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            返回作品列表
+          </a>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="card">
+            <div class="media">
+              <img src="../assets/images/cover-nebula-app.svg" alt="封面图（占位）" />
+            </div>
+            <div class="card-body prose">
+              <p>
+                <b>背景：</b>「星云理财」资产总览承载用户最核心的“看懂收益/风险/持仓结构”诉求，但旧版本信息层级混乱、关键指标解释不清，导致用户停留时间长但并非“理解更深”，反而更困惑。
+              </p>
+              <p>
+                <b>我的角色：</b>产品设计师（负责信息架构、交互与视觉方案、组件抽象与落地对齐）。
+              </p>
+              <p class="notice">
+                说明：金融业务常涉及 NDA，本页面以“结构与方法”为主，视觉稿用占位图表示；你可替换为脱敏截图或重绘稿。
+              </p>
+
+              <h2>问题</h2>
+              <ul>
+                <li>用户找不到关键数据：收益、持仓、风险信息散落，难以形成“整体认知”。</li>
+                <li>指标缺少解释：例如年化、浮动盈亏、累计收益等概念易混淆。</li>
+                <li>缺少可视化对比：用户难以快速判断结构变化与趋势。</li>
+              </ul>
+
+              <h2>策略</h2>
+              <ul>
+                <li><b>重建信息层级：</b>先回答“我现在总资产怎样？”再逐级下钻到“为什么会这样”。</li>
+                <li><b>把解释变成可理解的组件：</b>指标旁加入“上下文/解释/口径”的一致化呈现。</li>
+                <li><b>引入趋势与结构视图：</b>用轻量图表承载趋势、用结构卡片承载占比。</li>
+              </ul>
+
+              <h2>落地（你可以替换为真实截图）</h2>
+              <div class="grid-2">
+                <div class="card">
+                  <div class="media">
+                    <img src="../assets/images/cover-nebula-app.svg" alt="资产总览结构占位图" />
+                  </div>
+                  <div class="card-body">
+                    <h3>新信息层级</h3>
+                    <p>总览 → 持仓结构 → 细项解释（逐层减少认知负担）。</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="media">
+                    <img src="../assets/images/cover-nebula-app.svg" alt="组件与解释占位图" />
+                  </div>
+                  <div class="card-body">
+                    <h3>指标解释组件</h3>
+                    <p>统一口径、减少误解、提升信任与可解释性。</p>
+                  </div>
+                </div>
+              </div>
+
+              <h2>结果</h2>
+              <ul>
+                <li>用户人均资产查询时长缩短 <b>40%</b>（更快找到答案）。</li>
+                <li>该模块用户满意度（CSAT）提升 <b>15%</b>。</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn focus-ring" href="nebula-ui-design-system.html">下一篇：Nebula UI 设计系统</a>
+                <a class="btn btn-primary focus-ring" href="../index.html#contact">联系我</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>© <span id="y">2025</span> Lin You</div>
+          <div class="footer-links">
+            <a class="focus-ring" href="../index.html">Home</a>
+            <a class="focus-ring" href="../resume.html">Resume</a>
+            <a class="focus-ring" href="mailto:lin.you@pixelmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById('y').textContent = String(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
+

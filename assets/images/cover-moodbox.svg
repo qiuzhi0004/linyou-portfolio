@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F1EC"/>
+    </linearGradient>
+    <radialGradient id="a" cx="22%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#F5E93A" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#F5E93A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="82%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#2B6CF6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#2B6CF6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#a)"/>
+  <rect width="1200" height="750" fill="url(#b)"/>
+  <g fill="none" stroke="#0E0F13" stroke-opacity=".12" stroke-width="2">
+    <rect x="90" y="140" width="1020" height="520" rx="26"/>
+    <rect x="390" y="190" width="420" height="440" rx="72"/>
+    <rect x="430" y="250" width="340" height="140" rx="38"/>
+    <rect x="430" y="420" width="340" height="160" rx="38"/>
+    <circle cx="600" cy="224" r="10" fill="#0E0F13" fill-opacity=".12" stroke="none"/>
+  </g>
+  <g fill="#0E0F13">
+    <text x="90" y="96" font-family="ui-serif, Georgia, serif" font-size="44" font-weight="700">MoodBox</text>
+    <text x="90" y="122" font-family="ui-sans-serif, system-ui" font-size="16" opacity=".72">iOS Widget · 5,000+ downloads</text>
+  </g>
+  <g>
+    <rect x="90" y="670" width="300" height="54" rx="999" fill="#0E0F13"/>
+    <text x="120" y="705" font-family="ui-sans-serif, system-ui" font-size="16" fill="#fff">Side project</text>
+  </g>
+</svg>
+
